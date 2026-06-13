@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kannada Actors App - Version 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #1f1f1f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-content h2 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        .card-content p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #1f1f1f;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kannada Actors App - Version 1</h1>
+    <p>Popular Sandalwood Stars</p>
+</header>
+
+<div class="container">
+    <div class="grid">
+
+        <!-- Actor 1 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="Actor">
+            <div class="card-content">
+                <h2>Yash</h2>
+                <p>Famous for KGF series. One of the biggest stars in Kannada cinema.</p>
+            </div>
+        </div>
+
+        <!-- Actor 2 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="Actor">
+            <div class="card-content">
+                <h2>Puneeth Rajkumar</h2>
+                <p>Popular actor and singer. Known as Appu by fans.</p>
+            </div>
+        </div>
+
+        <!-- Actor 3 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="Actor">
+            <div class="card-content">
+                <h2>Sudeep</h2>
+                <p>Actor, director, and TV host. Known for versatile roles.</p>
+            </div>
+        </div>
+
+        <!-- Actor 4 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="Actor">
+            <div class="card-content">
+                <h2>Darshan</h2>
+                <p>Mass hero with a strong fan base in Karnataka.</p>
+            </div>
+        </div>
+
+        <!-- Actor 5 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="Actor">
+            <div class="card-content">
+                <h2>Rakshit Shetty</h2>
+                <p>Known for unique storytelling and creative movies.</p>
+            </div>
+        </div>
+
+        <!-- Actor 6 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="Actor">
+            <div class="card-content">
+                <h2>Rishab Shetty</h2>
+                <p>Director and actor famous for Kantara.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Kannada Actors App</p>
+</footer>
+
+</body>
+</html>
